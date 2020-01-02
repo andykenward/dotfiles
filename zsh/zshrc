@@ -1,0 +1,28 @@
+export DOTFILES_DIR="$HOME/.dotfiles"
+
+path+=($DOTFILES_DIR/bin)
+export PATH
+
+# export NVM_LAZY_LOAD=true
+export NVM_AUTO_USE=true
+
+source /usr/local/share/antigen/antigen.zsh
+
+# Load the oh-my-zsh's library.
+antigen use oh-my-zsh
+
+# Load bundles from the default repo (oh-my-zsh).
+antigen bundle git
+antigen bundle command-not-found
+
+# Syntax highlighting bundle.
+antigen bundle zsh-users/zsh-syntax-highlighting
+
+antigen bundle lukechilds/zsh-nvm
+
+# Load the theme
+# antigen theme robbyrussell
+antigen theme denysdovhan/spaceship-prompt
+
+# Tell antigen that you're done
+antigen apply

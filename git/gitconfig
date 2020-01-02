@@ -1,0 +1,8 @@
+[user]
+  name = Andy Kenward
+  email = hello@andykenward.com
+[github]
+  user = andykenward
+[core]
+  editor = code
+  excludesfile = ~/.dotfiles/git/gitignore

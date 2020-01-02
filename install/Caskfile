@@ -1,0 +1,25 @@
+tap "homebrew/cask-drivers"
+tap "homebrew/cask-versions"
+
+# browsers
+cask "google-chrome-canary"
+cask "google-chrome"
+cask "firefox"
+cask "firefox-developer-edition"
+
+cask "alfred"
+cask "tower"
+cask "iterm2"
+cask "the-unarchiver"
+cask "postman"
+
+cask "vlc"
+cask "spotify"
+
+# chat
+cask "slack"
+cask "whatsapp"
+cask "telegram"
+
+# drivers
+cask "sonos"
