@@ -14,13 +14,21 @@ It targets macOS Catalina 10.15 systems.
 
 On a sparkling fresh installation of macOS:
 
+Install Xcode cli tools
+
     xcode-select --install
+
+
+Install [Brew](https://brew.sh/)
+
+    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 Then clone this repo
 
     git clone https://github.com/andykenward/dotfiles.git ~/.dotfiles
 
 Use the [Makefile](./Makefile) to install everything [listed above](#package-overview).
+
     cd ~/.dotfiles
     make
 
