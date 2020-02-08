@@ -12,7 +12,6 @@ cask "tower"
 cask "gitkraken"
 cask "iterm2"
 cask "the-unarchiver"
-cask "postman"
 cask "visual-studio-code"
 
 cask "vlc"
