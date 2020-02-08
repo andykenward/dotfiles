@@ -11,5 +11,6 @@ dockutil --no-restart --add "/Applications/Visual Studio Code.app"
 dockutil --no-restart --add "/Applications/Tower.app"
 dockutil --no-restart --add "/System/Applications/System Preferences.app"
 dockutil --no-restart --add "/System/Applications/Music.app"
+dockutil --no-restart --add "/Applications/Spotify.app"
 
 killall Dock
