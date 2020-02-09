@@ -32,7 +32,7 @@ Use the [Makefile](./Makefile) to install everything [listed above](#package-ove
     cd ~/.dotfiles
     make
 
-## Post-install
+# Post-install
 
 - `dotfiles dock` (set [Dock items](./macos/dock.sh))
 
@@ -49,3 +49,9 @@ Use the [Makefile](./Makefile) to install everything [listed above](#package-ove
        macos            Apply macOS system defaults
        test             Run tests
        update           Update packages and pkg managers (OS, brew, npm, gem)
+
+## GPG
+
+GPG Suite with no mail [`gpg-suite-no-mail`](https://formulae.brew.sh/cask/gpg-suite-no-mail) is installed via brew cask for you. You need to follow the instructions below to setup signed commits and replace the `signingkey` in `./git/gitconfig`  with the one you generated.
+
+- [GitHub - Generating a new gpg key](https://help.github.com/en/github/authenticating-to-github/generating-a-new-gpg-key)

@@ -1,8 +1,27 @@
 [user]
   name = Andy Kenward
   email = 4893048+andykenward@users.noreply.github.com
+  # replace signingkey with the one you generate on a fresh setup
+  signingkey = B541D9D1161615EC52362FE5356CC6C40237CDA1
 [github]
   user = andykenward
 [core]
   editor = code
   excludesfile = ~/.dotfiles/git/gitignore
+[gpg]
+	program = /usr/local/MacGPG2/bin/gpg2
+[commit]
+	gpgsign = true
+[diff]
+  tool = Kaleidoscope
+[difftool]
+  prompt = false
+[difftool "Kaleidoscope"]
+  cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
+[merge]
+  tool = Kaleidoscope
+[mergetool]
+  prompt = false
+[mergetool "Kaleidoscope"]
+  cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
+  trustExitCode = true

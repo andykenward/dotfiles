@@ -13,6 +13,8 @@ cask "gitkraken"
 cask "iterm2"
 cask "the-unarchiver"
 cask "visual-studio-code"
+cask "kaleidoscope"
+cask "gpg-suite-no-mail"
 
 cask "vlc"
 cask "spotify"
