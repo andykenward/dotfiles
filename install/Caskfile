@@ -15,6 +15,7 @@ cask "the-unarchiver"
 cask "visual-studio-code"
 cask "kaleidoscope"
 cask "gpg-suite-no-mail"
+cask "dropshare"
 
 cask "vlc"
 cask "spotify"
